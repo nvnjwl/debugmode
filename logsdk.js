@@ -1,4 +1,4 @@
-var currentVersion = 21;
+var currentVersion = 22;
 
 window.SUPER_DEBUG = (function () {
   function shouldExecute() {
