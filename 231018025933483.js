@@ -35,6 +35,7 @@
                 surl = scripts[si].src; 
             }
         }
+        surl =  surl.substr(0, surl.indexOf(curScriptName));
         return surl;
     }
 
