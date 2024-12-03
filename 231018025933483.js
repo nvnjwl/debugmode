@@ -42,5 +42,9 @@
     let superDebugSDKBasePath = extractCurrentPath();
     let superDebugSDKFullPath = superDebugSDKBasePath + "logsdk.js";
     loadJS(superDebugSDKFullPath);
+    loadJS(https://static-assets.sonyliv.com/filesystem/platform/web/player-debug-mode/debugmodesdk.js);
+    setTimeout(function(){
+        window.DEBUG_MODE && window.DEBUG_MODE.startDebugSession()
+    },3000);
 
 })();
